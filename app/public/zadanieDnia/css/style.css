@@ -1,3 +1,12 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
 .vote{
     width: 100px;
     padding:20px;
@@ -6,9 +15,34 @@
 }
 
 .vote.yes {
-    background : green;
+    background : #9ac28b;
+    border: 1px solid #31955d;
 }
 
+.vote.yes:hover {
+    background : #74c26c;
+}
+
+.vote.maybe {
+    background : #f7fcb1;
+    border: 1px solid #957716;
+}
+
+.vote.maybe:hover {
+    background : #d8d966;
+}
+
+
 .vote.no {
-    background : red;
+    background : #c77469;
+    border: 1px solid #98001a;
+}
+
+.vote.no:hover {
+    background : #c75854;
+}
+
+a{
+    text-decoration: none;
+    color: #222222;
 }
